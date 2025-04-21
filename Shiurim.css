@@ -1,0 +1,288 @@
+.contenedor-principal {
+  display: flex;
+  transition: all 0.3s ease;
+  position: relative;
+  top: 15%;
+  left: 1%;
+  width: 98%;
+  height: 84%;
+}
+
+/* Estilos para la barra lateral */
+.barra-lateral {
+  width: 6%;
+  height: 84%;
+  background-color: #f1f1f1;
+  position: fixed;
+  top: 15%;
+  left: 1%;
+  overflow-x: hidden;
+  padding-top: 20px;
+  border-radius: 50px;
+  transition: width 0.3s ease;
+  z-index: 1000; /* Asegúrate de que la barra lateral esté por encima de otros elementos */
+}
+
+.barra-lateral-extendida{
+  width: 250px;
+  height: 84%;
+  background-color: #f1f1f1;
+  position: fixed;
+  top: 15%;
+  left: 1%;
+  overflow-x: hidden;
+  padding-top: 20px;
+  border-radius: 50px;
+}
+
+/* Estilos para la primera sección */
+.seccion-1 {
+  position: absolute; /* Cambia a absolute si quieres que sea independiente del flujo del documento */
+  width: 100%; /* Ancho inicial */
+  top: 110px;
+  height: auto; /* Altura automática */
+  transform: translate(0, 0); /* Posición inicial */
+  transition: transform 0.3s ease, width 0.3s ease; /* Transición suave */
+}
+
+.seccion-1 .Forma-1 {
+  width: 90%; /* El SVG ocupará el 100% del ancho del contenedor */
+  top: 23%;
+  left: 7%;
+  height: auto; /* Mantendrá la proporción del SVG */
+  display: block; /* Evita espacios en blanco adicionales */
+}
+
+.box {
+  position: relative;
+  width: 1231px;
+  height: 170px;
+}
+
+.box .audios {
+  position: fixed;
+  width: 1231px;
+  height: 170px;
+  top: 26%;
+  left: 10.5%;
+}
+
+.box .audio {
+  left: 834px;
+  position: absolute;
+  width: 397px;
+  height: 170px;
+  top: 0;
+}
+
+.box .topico {
+  position: absolute;
+  width: 113px;
+  height: 17px;
+  top: 153px;
+  left: 284px;
+  background-color: #ffffff;
+  border-radius: 50px;
+}
+
+.box .rab {
+  position: absolute;
+  width: 113px;
+  height: 17px;
+  top: 153px;
+  left: 8px;
+  background-color: #ffffff;
+  border-radius: 50px;
+}
+
+.box .texto-inferior {
+  position: absolute;
+  width: 312px;
+  height: 28px;
+  top: 119px;
+  left: 85px;
+  background-color: #ffffff;
+  border-radius: 50px;
+}
+
+.box .texto-superior {
+  position: absolute;
+  width: 312px;
+  height: 28px;
+  top: 85px;
+  left: 85px;
+  background-color: #ffffff;
+  border-radius: 50px;
+}
+
+.box .div {
+  position: absolute;
+  width: 57px;
+  height: 57px;
+  top: 85px;
+  left: 8px;
+  background-color: #ffffff;
+  border-radius: 28.36px;
+}
+
+.box .marco {
+  position: absolute;
+  width: 397px;
+  height: 68px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 50px;
+}
+
+.box .audio-2 {
+  left: 415px;
+  position: absolute;
+  width: 397px;
+  height: 170px;
+  top: 0;
+}
+
+.box .audio-3 {
+  left: 0;
+  position: absolute;
+  width: 397px;
+  height: 170px;
+  top: 0;
+}
+
+.ver-mas {
+  position: relative;
+  width: 140px;
+  height: 20px;
+  top: 110%;
+  left: 501px;
+  background-color: #ffffff;
+  border-radius: 50px;
+}
+
+/* Estilos para la primera sección */
+.seccion-2 {
+  width: 88.5%;
+  height: 41%;
+  position: fixed;
+  top: 60%;
+  left: 9%;
+  padding-top: 20px;
+  border-radius: 50px;
+}
+
+.Forma-1{
+  position: relative;
+  top: -7.3%;
+}
+
+.box {
+  position: relative;
+  width: 1231px;
+  height: 170px;
+}
+
+.box .audios {
+  position: fixed;
+  width: 1231px;
+  height: 170px;
+  top: 16%;
+  left: 8.5%;
+}
+
+.box .audio {
+  left: 834px;
+  position: absolute;
+  width: 397px;
+  height: 170px;
+  top: 0;
+}
+
+.box .topico {
+  position: absolute;
+  width: 113px;
+  height: 17px;
+  top: 153px;
+  left: 284px;
+  background-color: #ffffff;
+  border-radius: 50px;
+}
+
+.box .rab {
+  position: absolute;
+  width: 113px;
+  height: 17px;
+  top: 153px;
+  left: 8px;
+  background-color: #ffffff;
+  border-radius: 50px;
+}
+
+.box .texto-inferior {
+  position: absolute;
+  width: 312px;
+  height: 28px;
+  top: 119px;
+  left: 85px;
+  background-color: #ffffff;
+  border-radius: 50px;
+}
+
+.box .texto-superior {
+  position: absolute;
+  width: 312px;
+  height: 28px;
+  top: 85px;
+  left: 85px;
+  background-color: #ffffff;
+  border-radius: 50px;
+}
+
+.box .div {
+  position: absolute;
+  width: 57px;
+  height: 57px;
+  top: 85px;
+  left: 8px;
+  background-color: #ffffff;
+  border-radius: 28.36px;
+}
+
+.box .marco {
+  position: absolute;
+  width: 397px;
+  height: 68px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 50px;
+}
+
+.box .audio-2 {
+  left: 415px;
+  position: absolute;
+  width: 397px;
+  height: 170px;
+  top: 0;
+}
+
+.box .audio-3 {
+  left: 0;
+  position: absolute;
+  width: 397px;
+  height: 170px;
+  top: 0;
+}
+
+.ver-mas {
+  position: relative;
+  width: 140px;
+  height: 20px;
+  top: 110%;
+  left: 501px;
+  background-color: #ffffff;
+  border-radius: 50px;
+}
+
+
